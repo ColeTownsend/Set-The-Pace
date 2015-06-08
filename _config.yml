@@ -9,6 +9,10 @@ url: http://coletownsend.github.io/Set-The-Pace/
 source: src
 destination: serve
 
+sass:
+    sass_dir: assets/scss
+    style: :compressed
+
 # Same as the title etc for your site but can instead be
 # called by using 'site.author.name' and so on
 author:
