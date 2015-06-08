@@ -3,7 +3,7 @@
 title:
 description: Set The Pace
 tagline:
-url: http://localhost:3000
+url: http://paceparty.com
 
 # Used so Jekyll outputs the site correctly so Gulp can do what it wants
 source: src
