@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include _head.html %}
+<body>
+  {% include _header.html default="true" %}
+  <article class="mw6 center pxl cf mbxl">
+    {{content}}
+    {% include _form.html %}
+  </article>
+  {% include _footer.html %}
+</body>
+</html>

@@ -1,0 +1,12 @@
+{% capture img_url %}{% if img="default" %}default{% else %}{{ page.layout }}{% endif %}{% endcapture %}
+
+<div class="dt pvm pvl-ns bg-hero" style="background-image: url(/assets/images/{{img_url}}.jpg)">
+  <header class="tc dtc wi-100 v-mid">
+    <div class="pos-abs top-1 right-0 left-0 mra mla ">{% include _navigation.html %}</div>
+      <div class="tc mbm mtl mbn-ns">
+          <h1 class="f3 f2-m white mega-ns b db-ns mrs mrn-ns mbn ttu mtn">
+              {{ site.name }}
+          </h1>
+      </div>
+  </header>
+</div>
