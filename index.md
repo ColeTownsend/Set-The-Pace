@@ -2,7 +2,6 @@
 layout: lander
 title: lander
 ---
-
 ###### WHO AM I?
 - 50 mile Canadian Champion, 2014
 - 2015 Team Canada member for World 50 Mile Championships

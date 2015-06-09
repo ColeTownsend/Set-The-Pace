@@ -36,6 +36,15 @@ prose:
         field:
           element: "hidden"
           value: "default"
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Published"
+          value: true
+      - name: "testimonial"
+        field:
+          element: "text"
+          label: "Name of Testifier"
       - name: "tags"
         field:
           element: "multiselect"

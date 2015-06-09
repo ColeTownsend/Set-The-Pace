@@ -5,6 +5,7 @@
   {% include _header.html %}
   <article class="wi-100">
   {% for post in site.posts %}
+  {% if post.tags not contains 'testimonial'%}
   <a class="link bold" href="{{site.url}}{{post.url}}">
     <div class="{% cycle 'bg--off-white', 'bg--white' %} pvl w-100 db mbxs">
       <div class="db mw7 near-black center">
@@ -15,6 +16,7 @@
       </div>
     </div>
   </a>
+  {% endif %}
   {% endfor %}
   </article>
   {% include _footer.html %}
