@@ -1,7 +1,9 @@
 ---
 layout: default
-title: thank-you
+title: "thank-you"
+published: true
 ---
+
 
 # Thank you!
 
