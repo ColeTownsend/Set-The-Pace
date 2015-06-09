@@ -57,7 +57,7 @@ prose:
         field:
           element: "text"
           label: "Name of Testifier"
-          placeholder: "Only if tagged 'testimonial'"
+          placeholder: "Only if tagged testimonial"
 
 # Disables the more accurate related posts for faster generating of the site
 lsi: false

@@ -10,7 +10,7 @@
     {% if post in site.tags['testimonial'] %}
     <h6>Other Runners Say&colon;</h6>
     {% for post in site.tags['testimonial'] limit:1 %}
-      {{ post.content }}
+      {{ post.content }} — {{ post.testimonial }}
     {% endfor %}
     {% endif %}
     <br>
