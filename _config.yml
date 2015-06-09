@@ -23,7 +23,7 @@ author:
   twitter:
 
 prose:
-  ignore: ['.*','.jshintrc', '.gitignore', '.bowerrc','.gitattributes','Gemfile','Gemfile.lock','bower.json','*.txt','_includes','assets','gulpfile.js','*.xml','.editorconfig', '_config.yml']
+  ignore: ['.*','.jshintrc', '.gitignore', '.bowerrc','.gitattributes','Gemfile','Gemfile.lock','bower.json','*.txt','_includes','assets','gulpfile.js','*.xml','.editorconfig', '_config.yml', '*.json']
   siteurl: 'http://coletownsend.github.io/set-the-pace'
   media: 'assets/images'
   metadata:
