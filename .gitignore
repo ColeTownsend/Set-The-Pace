@@ -75,3 +75,4 @@ packages.json
 .*
 Gemfile
 Gemfile.lock
+_site

@@ -5,8 +5,8 @@
   {% include _header.html %}
   <article class="wi-100">
   {% for post in site.posts %}
-  {% if post.tags not contains 'testimonial'%}
-  <a class="link bold" href="{{site.url}}{{post.url}}">
+  {% if post.tags contains 'journal' or post.tags contains 'race-result'%}
+  <a class="link bold" href="{{site.baseurl}}{{post.url}}">
     <div class="{% cycle 'bg--off-white', 'bg--white' %} pvl w-100 db mbxs">
       <div class="db mw7 near-black center">
         <div class="f3 f2-ns mbl mtl normal">

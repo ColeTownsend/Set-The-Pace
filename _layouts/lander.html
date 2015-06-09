@@ -7,16 +7,17 @@
   <div class="mw7 center f3 pxl cf post">
     {{ page.content | markdownify }}
     <br>
-    {% if post in site.tags.testimonial %}
-    <h6>Other Runners Say&colon;</h6>
+    {% if site.tags.testimonial %}
     {% for post in site.tags.testimonial limit:1 %}
-      {{ post.content }} — {{ post.testimonial }}
+    <h6>{{ post.testimonial }} Says&colon;</h6>
+      {{ post.content }}
     {% endfor %}
     {% endif %}
     <br>
     <div class="mtl mbl">
       <a href="{{site.url}}/party-on/" class="btn btn--blue-border btn--full-m btn--m pam ">Have a pace party</a>
     </div>
+    <br>
   </div>
   {% include _footer.html %}
 </body>
