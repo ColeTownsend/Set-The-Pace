@@ -5,11 +5,11 @@
   {% include _header.html %}
   {% include _quote.html %}
   <div class="mw7 center f3 pxl cf post">
-    {{ content }}
+    {{ page.content }}
     <br>
-    {% if post in site.tags['testimonial'] %}
+    {% if post in site.tags.testimonial %}
     <h6>Other Runners Say&colon;</h6>
-    {% for post in site.tags['testimonial'] limit:1 %}
+    {% for post in site.tags.testimonial limit: 1 %}
       {{ post.content }} — {{ post.testimonial }}
     {% endfor %}
     {% endif %}
