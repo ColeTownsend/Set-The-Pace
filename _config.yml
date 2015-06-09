@@ -41,10 +41,6 @@ prose:
           element: "checkbox"
           label: "Published"
           value: true
-      - name: "testimonial"
-        field:
-          element: "text"
-          label: "Name of Testifier"
       - name: "tags"
         field:
           element: "multiselect"
@@ -57,6 +53,11 @@ prose:
               value: "testimonial"
             - name: "Race Results"
               value: "race-result"
+      - name: "testimonial"
+        field:
+          element: "text"
+          label: "Name of Testifier"
+          placeholder: "Only if tagged 'testimonial'"
 
 # Disables the more accurate related posts for faster generating of the site
 lsi: false
