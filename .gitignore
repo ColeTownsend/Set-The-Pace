@@ -68,3 +68,10 @@ site
 # hide the AWS and Rsync credentials file
 aws-credentials.json
 rsync-credentials.json
+
+# ignored for gh-pages only
+/node-modules
+packages.json
+.*
+Gemfile
+Gemfile.lock
