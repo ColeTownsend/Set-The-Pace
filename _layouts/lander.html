@@ -5,7 +5,7 @@
   {% include _header.html %}
   {% include _quote.html %}
   <div class="mw7 center f3 pxl cf post">
-    {{ page.content }}
+    {{ page.content | markdownify}}
     <br>
     {% if post in site.tags.testimonial %}
     <h6>Other Runners Say&colon;</h6>
