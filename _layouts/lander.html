@@ -5,7 +5,12 @@
   {% include _header.html %}
   {% include _quote.html %}
   <div class="mw7 center f3 pxl cf post">
-    {{content}}
+    {{ page.content }}
+    <br>
+    <h6>Other Runners Say&colon;</h6>
+    {% for post in site.tags['testimonial'] limit:1 %}
+    {{ post.content }}
+    {% endfor %}
     <br>
     <div class="mtl mbl">
       <a href="{{site.url}}/party-on/" class="btn btn--blue-border btn--full-m btn--m pam ">Have a pace party</a>
