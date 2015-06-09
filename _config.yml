@@ -22,13 +22,33 @@ author:
   bio:
   twitter:
 
-# general setting for Jekyll
-googleAnalytics: UA-XXXXX-X
+prose:
+  ignore: ['.*','.jshintrc', '.gitignore', '.bowerrc','.gitattributes','Gemfile','Gemfile.lock','bower.json','*.txt','_includes','assets','gulpfile.js','*.xml','.editorconfig', '_config.yml']
+  siteurl: 'http://coletownsend.github.io/set-the-pace'
+  media: 'assets/images'
+  metadata:
+    _posts:
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "default"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          placeholder: "Choose Tags"
+          options:
+            - name: "Journal"
+              value: "journal"
+            - name: "Testimonial"
+              value: "testimonial"
+            - name: "Race Results"
+              value: "race-results"
 
-# _config.build.yml overwrites these options when you run `gulp build`
-# Enables future posts (posts with dates in the future) and drafts
-future: true
-show_drafts: true
 # Disables the more accurate related posts for faster generating of the site
 lsi: false
 # Only make the last 10 posts so generating isn't slow
@@ -38,8 +58,6 @@ limit_posts: 10
 relative_permalinks: true
 permalink: pretty
 paginate: 10000
-paginate_path: 'page:num'
-excerpt_separator: '<!--more-->'
 
 # Markdown library
 markdown: redcarpet
@@ -47,3 +65,4 @@ markdown: redcarpet
 redcarpet:
   extensions: ['no_intra_emphasis', 'tables', 'fenced_code_blocks', 'autolink', 'smart',
               'strikethrough', 'superscript', 'underline', 'highlight', 'footnotes']
+highlighter: pygments
