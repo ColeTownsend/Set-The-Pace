@@ -1,12 +1,4 @@
-{% capture img_url %}
-  {% if page.hero-img %}
-    {% if page.hero-img contains "http://" %}
-      {{ page.hero-img }}
-    {% endif %}
-  {% else %}
-  {{site.baseurl}}/assets/images/{{ page.layout }}
-  {% endif %}
-{% endcapture %}
+{% capture img_url %}{% if page.hero-img %}{% if page.hero-img contains "http://" %}{{ page.hero-img }}{% endif %}{% else %}{{site.baseurl}}/assets/images/{{ page.layout }}{% endif %}{% endcapture %}
 
 <div class="dt pvm pvl-ns bg-hero" style="background-image: url({{img_url}}.jpg)">
   <header class="tc dtc wi-100 v-mid">
