@@ -1,10 +1,11 @@
 ---
 layout: default
-title: "thank-you"
+title: Thank You
 published: true
 ---
 
 
-# Thank you!
+I'll get back to you shortly. I'm really looking forward to running with you!
 
-I'll get back to you shortly.
+![IMG_2841.PNG]({{site.baseurl}}/assets/images/IMG_2841.PNG)
+
