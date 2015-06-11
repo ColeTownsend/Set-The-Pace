@@ -1,4 +1,4 @@
-{% capture img_url %}{% if img="default" %}default{% else %}{{ page.layout }}{% endif %}{% endcapture %}
+{% capture img_url %}{% if page.hero-img %}page.hero-img{% else %}{{ page.layout }}{% endif %}{% endcapture %}
 
 <div class="dt pvm pvl-ns bg-hero" style="background-image: url({{site.baseurl}}/assets/images/{{img_url}}.jpg)">
   <header class="tc dtc wi-100 v-mid">

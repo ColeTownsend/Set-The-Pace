@@ -2,9 +2,12 @@
 <html lang="en">
   {% include _head.html %}
 <body>
-  {% include _header.html default="true" %}
+  {% include _header.html %}
   <article class="mw6 center pxl cf mbxl">
     {{content}}
+    <span class="red">
+    \* denotes required
+    </span>
     {% include _form.html %}
   </article>
   {% include _footer.html %}

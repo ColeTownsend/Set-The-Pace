@@ -51,11 +51,16 @@ prose:
               value: "testimonial"
             - name: "Race Results"
               value: "race-result"
+      - name: "hero-img"
+        field:
+          element: "text"
+          label: "Custom Header Image"
+          placeholder: "name-of-image.jpg"
       - name: "testimonial"
         field:
           element: "text"
           label: "Name of Testifier"
-          placeholder: "Only if tagged testimonial"
+          placeholder: "if tagged testimonial"
 
 # Disables the more accurate related posts for faster generating of the site
 lsi: false
