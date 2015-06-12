@@ -55,7 +55,7 @@ prose:
         field:
           element: "text"
           label: "Custom Header Image"
-          placeholder: "name-of-image.jpg"
+          placeholder: "http://image-url-goes-here.com"
       - name: "testimonial"
         field:
           element: "text"
