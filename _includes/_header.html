@@ -1,6 +1,6 @@
-{% capture img_url %}{% if page.hero-img %}{% if page.hero-img contains "http://" %}{{ page.hero-img }}{% endif %}{% else %}{{site.baseurl}}/assets/images/{{ page.layout }}{% endif %}{% endcapture %}
+{% capture img_url %}{% if page.hero-img %}{% if page.hero-img contains "http://" %}{{ page.hero-img }}{% endif %}{% else %}{{site.baseurl}}/assets/images/{{ page.layout }}.jpg{% endif %}{% endcapture %}
 
-<div class="dt pvm pvl-ns bg-hero" style="background-image: url({{img_url}}.jpg)">
+<div class="dt pvm pvl-ns bg-hero" style="background-image: url({{img_url}})">
   <header class="tc dtc wi-100 v-mid">
     <div class="pos-abs top-1 right-0 left-0 mra mla ">{% include _navigation.html %}</div>
       <div class="tc mbm mtl mbn-ns">
