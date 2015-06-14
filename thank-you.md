@@ -5,5 +5,5 @@ published: true
 ---
 
 
-I'll get back to you shortly. I'm really looking forward to running with you!
+Thanks for the info! I will get back to you very soon. Happy trails! 
 
