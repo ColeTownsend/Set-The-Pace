@@ -5,22 +5,16 @@ published: true
 ---
 
 
-Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
 
 ###### FAQ
 
-**Q:** How exactly does this work? What happens after I submit an application?
+**Q:** What is a pacer / crew, and why do I need one for my next race?
 
-**A:** When you apply, I read through all the details of the race as well as what you can provide me. If it fits my schedule and I can afford whatever extra expenses there might be, I'll send you an email back!
+**A:** A pacer is someone that runs a section of your race (usually an ultramarathon distance event) with the runner to help motivate and assist. A crew member supports the runner in as many aspects of the event, without actually running during the race with him or her. 
 
----
-
-**Q:** This is an example
-
-**A:** This is the answer
 
 ---
 
-**Q:** This is an example
+**Q:** How exactly does this work? What happens after I submit the form?
 
-**A:** This is the answer
+**A:** I read through all the details of the race as well as what you can provide as the racer. If it fits my schedule and I can afford whatever extra expenses there might be, we can have a pace party! 
